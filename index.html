@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7eed494a20.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="navbar">
+            <div class="left-nav">
+                <div><i class="fa-brands fa-spotify" style="color: #5ce114;"></i>
+                    <a id="spo" class="spotify" href=""> Spotify</a>
+                </div>
+                <div>
+                    <a id="f" class="fav" href="">Favourites</a>
+                </div>
+            </div>
+            <div class="right-nav">
+                <div class="search">
+                    <span>&#128269</span>
+                    <input type="search" name="" id="" placeholder="Search... ">
+                    <span>&#127897;&#65039;</span>
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-bell" style="color: #f0f2f5;"></i>
+                </a>
+                <div class="login-img">
+                    <a href="#">
+                        <img src="https://plus.unsplash.com/premium_photo-1690164680142-701cf794a832?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="main">
+                <div class="image">
+                    <div class="sub_image">
+                        <a href="#">
+                            <img src="https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/610a41f11d60d5390400af74/COLLECTION_795860256947905.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="sub_image">
+                        <a href="#">
+                            <img src="https://files.thehandbook.com/uploads/2020/12/mood-booster.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="sub_image">
+
+                        <a href="#">
+                            <img src="https://www.ikmultimedia.com/products/stedm/main-banner/mobile.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="Release">
+                    <p>Latest Release</p>
+                </div>
+                <div class="latest">
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYuyq0W_1zElYlaeH7wGNZ_gIqRhToQuuMVzTQKQ02ZEwqhIwD"
+                                alt="">
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>O Saathi Chal</p>
+                            <p>28-July-2023</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+                    </div>
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMpcz8flcJfM9fXOQwqaXMgzrXYh4Wxagqn5Pfyj-3hN-nm2IO"
+                                alt="">
+
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>Chal Tere Ishq Mein</p>
+                            <p>13-Sep-2023</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+                    </div>
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202304/Bloody-Daddy_1681628241.jpg"
+                                alt="">
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>Issa Vibe</p>
+                            <p>21-Dec-2022</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+                    </div>
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYmRmMzIyN2UtYzRlMC00MDMwLWFiN2ItMTcxZGY4Njg3ZTYyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+                                alt="">
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>Show Me The Thumka</p>
+                            <p>31-March-2023</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+                    </div>
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://im.rediff.com/movies/2023/jan/12film1.jpg?w=670&h=900" alt="">
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>Hukum</p>
+                            <p>15-Aug-2023</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+
+                    </div>
+                    <div class="latest_sub">
+                        <a href="#">
+                            <img src="https://c.saavncdn.com/098/3Idiots-Hindi-2021-20210409142705-500x500.jpg" alt="">
+                            <i class="fa-solid fa-play fa-2xl" style="color: #f0f0f0;"></i>
+                        </a>
+                        <div class="latest_sub_name">
+                            <p>Aal Izz Well</p>
+                            <p>31-Dec-2023</p>
+                        </div>
+                        <div class="latest_sub_time">
+                            <p>...</p>
+                            <p>04:38</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="artists">
+                    <div class="popular">
+                        <p>Popular Artists</p>
+                    </div>
+                    <div class="artists-name">
+                        <div class="artists-image">
+                            <img src="https://images.news18.com/ibnlive/uploads/2022/08/jubin-.jpg" alt="">
+                            <p>Jubin Nautiyal</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://cdn.siasat.com/wp-content/uploads/2019/07/Badshah_FREE.jpg" alt="">
+                            <p>Badshah</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3RLXIQd7i1JGagvE3jU3n4w9aG8X4aoImQ&s"
+                                alt="">
+                            <p>Benny Dayal</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://starsunfolded.com/wp-content/uploads/2016/02/Shaan.jpg" alt="">
+                            <p>Shaan</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://i2.cinestaan.com/image-bank/1500-1500/62001-63000/62361.jpg?rand=1289948520"
+                                alt="">
+                            <p>Kumar Sanu</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36v3rGe/p36Agj6BKr/size_m_1530268488.webp"
+                                alt="">
+                            <p>Akhil</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://static.toiimg.com/thumb/msid-97345213,width-1280,resizemode-4/97345213.jpg"
+                                alt="">
+                            <p>Justin Bieber</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://ghaintpunjabnet.akamaized.net/GhaintPunjab/kaka-punjabi-singer-ghaintpunjab.png"
+                                alt="">
+                            <p>Kaka</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://www.koimoi.com/wp-content/new-galleries/2020/05/neha-kakkar-never-thought-about-where-ive-reached-today-001.jpg"
+                                alt="">
+                            <p>Neha Kakkar</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://wikibio.in/wp-content/uploads/2019/03/Shreya-Ghoshal.jpg" alt="">
+                            <p>Shreya Ghoshal</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://images.news18.com/ibnlive/uploads/2022/08/jubin-.jpg" alt="">
+                            <p>Jubin Nautiyal</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://cdn.siasat.com/wp-content/uploads/2019/07/Badshah_FREE.jpg" alt="">
+                            <p>Badshah</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://static.toiimg.com/thumb/msid-98408437,width-1280,resizemode-4/98408437.jpg"
+                                alt="">
+                            <p>Benny Dayal</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://starsunfolded.com/wp-content/uploads/2016/02/Shaan.jpg" alt="">
+                            <p>Shaan</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://i2.cinestaan.com/image-bank/1500-1500/62001-63000/62361.jpg?rand=1289948520"
+                                alt="">
+                            <p>Kumar Sanu</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36v3rGe/p36Agj6BKr/size_m_1530268488.webp"
+                                alt="">
+                            <p>Akhil</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://static.toiimg.com/thumb/msid-97345213,width-1280,resizemode-4/97345213.jpg"
+                                alt="">
+                            <p>Justin Bieber</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://ghaintpunjabnet.akamaized.net/GhaintPunjab/kaka-punjabi-singer-ghaintpunjab.png"
+                                alt="">
+                            <p>Kaka</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://www.koimoi.com/wp-content/new-galleries/2020/05/neha-kakkar-never-thought-about-where-ive-reached-today-001.jpg"
+                                alt="">
+                            <p>Neha Kakkar</p>
+                        </div>
+                        <div class="artists-image">
+                            <img src="https://wikibio.in/wp-content/uploads/2019/03/Shreya-Ghoshal.jpg" alt="">
+                            <p>Shreya Ghoshal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="music">
+                    <!-- <div class="music_stop">
+                        <img src="https://img.freepik.com/premium-vector/music-equalizer-purple-gradient_1172-753.jpg?w=360"
+                            alt="">
+                    </div> -->
+                    <!-- <div class="music-image">
+                        <a href="#">
+                            <img src="https://media.istockphoto.com/id/92026251/photo/hip-hop-musician.jpg?s=612x612&w=0&k=20&c=ZTrTLbbgglN_HWDhy1f_NMr0sJZYunWIEayj_qlBD9A="
+                                alt="">
+                            <p>Rap</p>
+                        </a>
+                    </div> -->
+                    <div class="music-type">
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://wallpapers.com/images/hd/dark-love-pictures-k2dddf8pun7yqnd2.jpg"
+                                    alt="">
+                                <p>Love</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/9118653/pexels-photo-9118653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                                <p>Retro</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://w0.peakpx.com/wallpaper/366/257/HD-wallpaper-microphone-pop-filter-music-dark.jpg"
+                                    alt="">
+                                <p>Pop</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9jayUyMG11c2ljfGVufDB8fDB8fHww&w=1000&q=80"
+                                    alt="">
+                                <p>Rock</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmGf6LYhYq-mPeIhep4aVrttfkHd4VLQfIA&usqp=CAU"
+                                    alt="">
+                                <p>Chill</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://st3.depositphotos.com/8150870/34788/i/450/depositphotos_347887122-stock-photo-notebook-mockup-office-rustic-wooden.jpg"
+                                    alt="">
+                                <p>Work</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://mariposafolk.com/wp-content/uploads/2018/05/bdobson-scaled.jpg"
+                                    alt="">
+                                <p>Dew</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://ak.picdn.net/shutterstock/videos/1047494902/thumb/1.jpg?ip=x480"
+                                    alt="">
+                                <p>Melody</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5JdeCmJ8HO9O82zmdgbDqGKyUpknS1DJCQ&usqp=CAU"
+                                    alt="">
+                                <p>Jazz</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://i.ytimg.com/vi/BjygXa7zKbM/maxresdefault.jpg" alt="">
+                                <p>Funk</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://media.istockphoto.com/id/92026251/photo/hip-hop-musician.jpg?s=612x612&w=0&k=20&c=ZTrTLbbgglN_HWDhy1f_NMr0sJZYunWIEayj_qlBD9A="
+                                    alt="">
+                                <p>Rap</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://wallpapers.com/images/hd/dark-love-pictures-k2dddf8pun7yqnd2.jpg"
+                                    alt="">
+                                <p>Love</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://images.pexels.com/photos/9118653/pexels-photo-9118653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                                <p>Retro</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://w0.peakpx.com/wallpaper/366/257/HD-wallpaper-microphone-pop-filter-music-dark.jpg"
+                                    alt="">
+                                <p>Pop</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9jayUyMG11c2ljfGVufDB8fDB8fHww&w=1000&q=80"
+                                    alt="">
+                                <p>Rock</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmGf6LYhYq-mPeIhep4aVrttfkHd4VLQfIA&usqp=CAU"
+                                    alt="">
+                                <p>Chill</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://st3.depositphotos.com/8150870/34788/i/450/depositphotos_347887122-stock-photo-notebook-mockup-office-rustic-wooden.jpg"
+                                    alt="">
+                                <p>Work</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://mariposafolk.com/wp-content/uploads/2018/05/bdobson-scaled.jpg"
+                                    alt="">
+                                <p>Dew</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://ak.picdn.net/shutterstock/videos/1047494902/thumb/1.jpg?ip=x480"
+                                    alt="">
+                                <p>Melody</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5JdeCmJ8HO9O82zmdgbDqGKyUpknS1DJCQ&usqp=CAU"
+                                    alt="">
+                                <p>Jazz</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://i.ytimg.com/vi/BjygXa7zKbM/maxresdefault.jpg" alt="">
+                                <p>Funk</p>
+                            </a>
+                        </div>
+                        <div class="music-image">
+                            <a href="#">
+                                <img src="https://media.istockphoto.com/id/92026251/photo/hip-hop-musician.jpg?s=612x612&w=0&k=20&c=ZTrTLbbgglN_HWDhy1f_NMr0sJZYunWIEayj_qlBD9A="
+                                    alt="">
+                                <p>Rap</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="english">
+                    <div class="lat_english">
+                        <p>Latest English</p>
+                    </div>
+                    <div class="english_name">
+                        <div class="english_image">
+                            <img src="https://images.mid-day.com/images/images/2017/feb/16ED-Sheeran-1.jpg" alt="">
+                            <p>Shape of you</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://pianobajao.com/wp-content/uploads/2020/12/Despacito-Justin-Bieber-Full-Piano-Notes-880x660.jpg"
+                                alt="">
+                            <p>Despacito</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+
+                            <img src="https://i.scdn.co/image/ab67616d00001e02e3a40a64f0473c111cf42b06" alt="">
+
+                            <p>Hollywood</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/423/Pelican-English-2015-500x500.jpg" alt="">
+                            <p>David Guetta</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg"
+                                alt="">
+                            <p>Justin Bieber</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmhKufr8ShNq3l4eBnz2TjxeJ1N6VEamQK4Q&usqp=CAU"
+                                alt="">
+                            <p>English Song</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcgCR6RpPkfWsXU0gYZdoRnDlc5VGKgOqVGA&usqp=CAU"
+                                alt="">
+                            <p>Top 100</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDiT64hk7NY_UQ5n3n5RcqdKn90y1i70YMA&usqp=CAU"
+                                alt="">
+                            <p>Classic Hollywood</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs6Pj4uQXvuhdlqSRidRIkz9mIqv8PjOHtng&usqp=CAU"
+                                alt="">
+                            <p>Hollywood Undead</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwCubVoUJdUncy-j2DI0_KqpGF2kPeTYBgQ&usqp=CAU"
+                                alt="">
+
+                            <p>Top Hollywood</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+
+                            <img src="https://source.boomplaymusic.com/group10/M00/01/20/8cc2177625be40558290a5ca791740bd_320_320.jpg"
+                                alt="">
+
+                            <p>English Song</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1QcTWG5BArSnDqds39uymLwYfwXe3cnuMQ&usqp=CAU"
+                                alt="">
+                            <p>Jay-Z</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://images.mid-day.com/images/images/2017/feb/16ED-Sheeran-1.jpg" alt="">
+                            <p>Shape of you</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://pianobajao.com/wp-content/uploads/2020/12/Despacito-Justin-Bieber-Full-Piano-Notes-880x660.jpg"
+                                alt="">
+                            <p>Despacito</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+
+                            <img src="https://i.scdn.co/image/ab67616d00001e02e3a40a64f0473c111cf42b06" alt="">
+
+                            <p>Hollywood</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/423/Pelican-English-2015-500x500.jpg" alt="">
+                            <p>David Guetta</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg"
+                                alt="">
+                            <p>Justin Bieber</p>
+                            <p>11 Aug, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hindi">
+                    <div class="latest_hindi">
+                        <p>Latest Hindi</p>
+                    </div>
+                    <div class="hindi_name">
+                        <div class="english_image">
+                            <img src="https://i.pinimg.com/736x/71/20/79/7120792fe98dc23baae9ddd541b48463.jpg" alt="">
+                            <p>Filhaal-2</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlODNkI6uEnXEcKYLPPI0O5j8966dfuVG8w&usqp=CAU"
+                                alt="">
+                            <p>New Song Album</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLW1wHaHG-sl8C6Br0H98VIVBf9EOIl0UYVQ&usqp=CAU"
+                                alt="">
+                            <p>All Bolywood</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://allhindilyric.com/wp-content/uploads/2022/08/Hindi-Song-Lyrics--1024x576.webp"
+                                alt="">
+                            <p>Sad Song</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://timesofindia.indiatimes.com/photo/msid-92413768,imgsize-175638.cms"
+                                alt="">
+                            <p>Love Song</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYTBtS3yNxCuL_9FeKMkOcZDpjG037Y7elQ&usqp=CAU"
+                                alt="">
+                            <p>Old Song</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8w5HVdrmkrQ7iPWbyhfO8e3I44BgGmZCDuA&usqp=CAU"
+                                alt="">
+                            <p>New Song</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZdZrD7vnrhReTIMViLPH6PASurgKQJQ-ykg&usqp=CAU"
+                                alt="">
+                            <p>Kishor Special</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5mGPaGwMLW8BilpeRYDbhOW6YuXi2y-XtIg&s"
+                                alt="">
+                            <p>Panjabi Song</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRst1CHSCtf8lvc4wvcJkUlxRw9Qr8SFFD_2Q&usqp=CAU"
+                                alt="">
+                            <p>Kaka Collection</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/562/Arijit-Singh-India-Tour-Hits-Hindi-2022-20221130171125-500x500.jpg"
+                                alt="">
+                            <p>Arijit Singh Hits</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/897/Mika-Singh-Party-On-Hindi-2021-20210607143121-500x500.jpg"
+                                alt="">
+                            <p>Mika & Party</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://i.ytimg.com/vi/tfSNT5Ewano/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-BIAC6AKKAgwIABABGEMgTyhlMA8=&rs=AOn4CLAdLnN_ZXveyd9ewcjsrN6UIswTjQ"
+                                alt="">
+                            <p>Best Of Benny Dayal</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEXtOQX3oMK0AxybEp6C5SSqsAegh6pkzrw&usqp=CAU"
+                                alt="">
+                            <p>90's Special</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://images.hungama.com/c/1/972/419/27965664/27965664_300x300.jpg" alt="">
+                            <p>Gulshan Kumar</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://c.saavncdn.com/211/Shiv-Tandav-Stotram-Har-Har-Shiv-Shankar--Hindi-2021-20210709031001-500x500.jpg"
+                                alt="">
+                            <p>Shivji Bhajan</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://gumlet.assettype.com/nationalherald%2F2022-08%2F8df5bcea-231d-43a3-ba48-2496c62972ea%2FKrishna.jpeg?auto=format%2Ccompress&fmt=webp&w=1200"
+                                alt="">
+                            <p>Bal Gopal Bhajan</p>
+                            <p>11 Aug, 2023</p>
+                        </div>
+                        <div class="english_image">
+                            <img src="https://i.pinimg.com/736x/71/20/79/7120792fe98dc23baae9ddd541b48463.jpg" alt="">
+                            <p>Filhaal-2</p>
+                            <p>11 Aug, 20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="all">
+                <div class="queue-header">
+                    <div id="q">Queue</div>
+                    <div></div>
+                    <div></div>
+                    <div class="drop">Queue <i class="fa-sharp fa-solid fa-caret-down fa-sm"
+                            style="color: #00ffff;"></i>
+                    </div>
+                </div>
+
+                <div class="extra">
+
+                    <div class="queue-1">
+                        <span>01</span>
+                        <div class="all-1">
+                            <img src="https://i.pinimg.com/550x/8d/3a/fb/8d3afbc9e1f9bc142e391ef1b4dd84a5.jpg" alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tum hi ho</p>
+                            <p id="name">Arjit Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>02</span>
+                        <div class="all-1">
+                            <img src="https://m.media-amazon.com/images/M/MV5BMDFhYTRiMjMtMjlkYS00MmU5LWFmYTItNzI3MDg3MDA1Nzc1XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Dhime Dhime </p>
+                            <p id="name">Neha Kakkar</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>03</span>
+                        <div class="all-1">
+                            <img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/7/2020_7$largeimg_799413191.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Same Beef</p>
+                            <p id="name">Sidhu Moose Wala</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>04</span>
+                        <div class="all-1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjhsqpW1pM6aglRhv57txoTjce_nIduOn7g&usqp=CAU"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Desi kalakaar</p>
+                            <p id="name">Honey Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>05</span>
+                        <div class="all-1">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-48bd5c64521ef8a6d52f450e305bac1b-lq"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tera Zikr</p>
+                            <p id="name">Darshan Raval</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>06</span>
+                        <div class="all-1">
+                            <img src="https://reservemystar.com/wp-content/uploads/2022/05/B-praak.jpg" alt="">
+                        </div>
+                        <div>
+                            <p id="song">Barish ki jai</p>
+                            <p id="name">B Praak</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>07</span>
+                        <div class="all-1">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Mika_singh_iifa_press_conference.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Gandi Baat</p>
+                            <p id="name">Mika Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="queue-1">
+                        <span>08</span>
+                        <div class="all-1">
+                            <img src="https://i.pinimg.com/550x/8d/3a/fb/8d3afbc9e1f9bc142e391ef1b4dd84a5.jpg" alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tum hi ho</p>
+                            <p id="name">Arjit Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>09</span>
+                        <div class="all-1">
+                            <img src="https://m.media-amazon.com/images/M/MV5BMDFhYTRiMjMtMjlkYS00MmU5LWFmYTItNzI3MDg3MDA1Nzc1XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Dhime Dhime </p>
+                            <p id="name">Neha Kakkar</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>10</span>
+                        <div class="all-1">
+                            <img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/7/2020_7$largeimg_799413191.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Same Beef</p>
+                            <p id="name">Sidhu Moose Wala</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>11</span>
+                        <div class="all-1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjhsqpW1pM6aglRhv57txoTjce_nIduOn7g&usqp=CAU"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Desi kalakaar</p>
+                            <p id="name">Honey Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>12</span>
+                        <div class="all-1">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-48bd5c64521ef8a6d52f450e305bac1b-lq"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tera Zikr</p>
+                            <p id="name">Darshan Raval</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>13</span>
+                        <div class="all-1">
+                            <img src="https://reservemystar.com/wp-content/uploads/2022/05/B-praak.jpg" alt="">
+                        </div>
+                        <div>
+                            <p id="song">Barish ki jai</p>
+                            <p id="name">B Praak</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>14</span>
+                        <div class="all-1">
+                            <img src="https://i.pinimg.com/550x/8d/3a/fb/8d3afbc9e1f9bc142e391ef1b4dd84a5.jpg" alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tum hi ho</p>
+                            <p id="name">Arjit Singh</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>15</span>
+                        <div class="all-1">
+                            <img src="https://m.media-amazon.com/images/M/MV5BMDFhYTRiMjMtMjlkYS00MmU5LWFmYTItNzI3MDg3MDA1Nzc1XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Dhime Dhime </p>
+                            <p id="name">Neha Kakkar</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="queue-1">
+                        <span>16</span>
+                        <div class="all-1">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-48bd5c64521ef8a6d52f450e305bac1b-lq"
+                                alt="">
+                        </div>
+                        <div>
+                            <p id="song">Tera Zikr</p>
+                            <p id="name">Darshan Raval</p>
+                        </div>
+                        <div class="queue-i">
+                            <a href="#">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #eeeded;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
